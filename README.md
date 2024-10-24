@@ -57,25 +57,7 @@ python main.py
 ```
 
 ## Estrutura do projeto
-📂 projeto/
-│
-├── 📂 DB/                        # Contém scripts de banco de dados e seeds
-│   ├── seed.py
-|   ├── db_example.py             # Um exemplo sql para o banco de dados, este arquivo não é utilizado neste projeto, está aqui apenas para exemplo.
-│   └── mainDB.py                 # Arquivo principal que inicializa o app Flask e o banco de dados
-│
-├── 📂 models/                    # Modelos de banco de dados
-│   └── book_model.py             # Modelo de dados da tabela de livros
-│
-├── 📂 static/styles
-│   └── styles.py                 # Arquivo de estilização geral
-|
-├── 📂 templates/                # Templates HTML
-│
-├── requirements.txt             # Dependências do projeto
-├── main.py                      # Arquivo de execução do projeto
-├── routes.py                    # Definição de rotas
-└── README.md                    # Este arquivo
+📂 projeto/ │ ├── 📂 DB/ # Contém scripts de banco de dados e seeds │ ├── seed.py │ ├── db_example.py # Um exemplo SQL para o banco de dados, este arquivo não é utilizado neste projeto, está aqui apenas para exemplo. │ └── mainDB.py # Arquivo principal que inicializa o app Flask e o banco de dados │ ├── 📂 models/ # Modelos de banco de dados │ └── book_model.py # Modelo de dados da tabela de livros │ ├── 📂 static/styles/ # Arquivos de estilização │ └── styles.py # Arquivo de estilização geral │ ├── 📂 templates/ # Templates HTML │ ├── requirements.txt # Dependências do projeto ├── main.py # Arquivo de execução do projeto ├── routes.py # Definição de rotas └── README.md # Este arquivo
 
 
 ## Modelo de dados
