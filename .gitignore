@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Flask
+instance/
+.webassets-cache
+
+# Environment variables
+.env
+
+# Virtual environment
+venv/
+env/
+ENV/
+.venv/
+venv.bak/
+env.bak/
+ENV.bak/
+
+# Database
+*.db
+*.sqlite3
+
+# IDEs
+.idea/
+*.sublime-workspace
+*.sublime-project
+.vscode/
+*.code-workspace
+
+# Logs
+*.log
+
+# Misc
+.DS_Store
+Thumbs.db
