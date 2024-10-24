@@ -56,29 +56,6 @@ Após termos o banco de dados populado, podemos rodar o projeto em main.py
 python main.py
 ```
 
-## Estrutura do Projeto
-
-📂 projeto/  
-│  
-├── 📂 DB/
-│   ├── seed.py  
-│   ├── db_example.py             
-│   └── mainDB.py                
-│  
-├── 📂 models/                  
-│   └── book_model.py            
-│  
-├── 📂 static/styles/        
-│   └── styles.py  
-│  
-├── 📂 templates/               
-│  
-├── requirements.txt          
-├── main.py                   
-├── routes.py                    
-└── README.md                
-
-
 ## Modelo de dados
 
 O modelo de livro está definido em DB/models/book_model.py com os seguintes campos:
